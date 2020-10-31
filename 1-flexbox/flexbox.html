@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Flexbox</title>
+<style>
+    .container {
+        margin-top: 50px;
+        padding: 20px 0;
+        background-color: #f60;
+        display: flex;
+        /* display: inline-flex; */
+        flex-direction: column;
+        /* flex-direction: row-reverse; */
+        /* flex-direction: column; */
+        /* flex-direction: column-reverse; */
+        flex-wrap: nowrap;
+        /* flex-wrap: wrap; */
+        /* flex-flow: row wrap; */
+        /* justify-content: flex-start; */
+        justify-content: space-evenly;
+        align-items: center;
+        /* align-content: space-evenly; */
+    }
+    .item {
+        padding: 30px;
+        margin: 10px;
+        background-color: #060606;
+        text-align: center;
+        font-size: 30px;
+        color: #fff;
+    }
+    .item-1 {
+        font-size: 70px;
+        order: 0;
+        flex-grow: 5;
+    }
+    .item-2 {
+        align-self: stretch;
+    }
+    .item-5 {
+        order: -1;
+        align-self: auto;
+        flex-grow: 1;
+        /* flex-shrink: 1; */
+        /* flex-basis: 100px; */
+        flex: 0 1 auto;
+    }
+
+    /* 
+        flex-shrink: flex-grow와 쌍을 이루고, flex-basis의 값보다 작일 수 있을 지를 결정함
+     */
+</style>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="item item-1">A</div>
+        <div class="item item-2">B</div>
+        <div class="item item-3">C</div>
+        <div class="item item-4">D</div>
+        <div class="item item-5">E</div>
+    </div>
+
+</body>
+</html>
