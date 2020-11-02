@@ -1,13 +1,14 @@
 # css-flex-grid-practice
 
 ## Feature
-This repo is the practice outcome of Front End Web Development Bootcamp - Build a Twitter Clone in Udemy.
+Udemy의 Build a Twitter Clone 강좌의 클론코딩.
+float 레이아웃 코딩을 주로 했으나 Flexbox와 CSS Grid 방식을 빠르게 습득하기 위한 연습코드
 
 ## Flexbox &amp; CSS Grid
 - [x] Flexbox
 - [x] CSS Grid
 
-## Twitter Clone
+## 트위터 클론
 - [ ] Main Page
 - [ ] Form Element
 - [ ] Banner
