@@ -12,8 +12,8 @@
 - [ ] Main Page
 - [ ] Form Element
 - [ ] Banner
-- [ ] Footer
-- [ ] Login Page
+- [x] Footer
+- [x] Login Page
 - [ ] New Feed
 - [ ] Post
 - [ ] Modal
