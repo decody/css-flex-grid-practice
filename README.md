@@ -9,14 +9,14 @@
 - [x] CSS Grid
 
 ## 트위터 클론
-- [ ] Main Page
-- [ ] Form Element
-- [ ] Banner
+- [x] Main Page
+- [x] Form Element
+- [x] Banner
 - [x] Footer
 - [x] Login Page
-- [ ] New Feed
-- [ ] Post
-- [ ] Modal
-- [ ] Sidebar
-- [ ] Dark Mode
+- [x] New Feed
+- [x] Post
+- [x] Modal
+- [x] Sidebar
+- [x] Dark Mode
 - [ ] Reponsive Layout
