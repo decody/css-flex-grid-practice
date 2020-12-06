@@ -19,4 +19,4 @@
 - [x] Modal
 - [x] Sidebar
 - [x] Dark Mode
-- [ ] Reponsive Layout
+- [x] Reponsive Layout
